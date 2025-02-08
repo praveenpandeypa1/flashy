@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapchat Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>📸 FILTER </h1>
+
+    <!-- Camera Preview -->
+    <div class="camera-container">
+        <video id="camera" autoplay></video>
+        <div id="filter-overlay"></div> <!-- Filter Layer -->
+    </div>
+    
+    <!-- Scrollable Filter Selector -->
+    <div class="filter-scroll">
+        <button class="filter-btn" data-filter="none">No Filter</button>
+        <button class="filter-btn" data-filter="grayscale(100%)">Grayscale</button>
+        <button class="filter-btn" data-filter="sepia(100%)">Sepia</button>
+        <button class="filter-btn" data-filter="invert(100%)">Invert</button>
+        <button class="filter-btn" data-filter="blur(5px)">Blur</button>
+        <button class="filter-btn" data-filter="contrast(200%)">Contrast</button>
+        <button class="filter-btn" data-filter="hue-rotate(90deg)">Hue Rotate</button>
+        <button class="filter-btn" data-filter="brightness(150%)">Brightness</button>
+        <button class="filter-btn" data-filter="saturate(300%)">Saturate</button>
+        <button class="filter-btn" data-filter="opacity(50%)">Opacity</button>
+        <!-- Add more filter buttons here -->
+    </div>
+
+    <!-- Capture and Send -->
+    <button id="capture-btn">Capture</button>
+    <canvas id="canvas"></canvas>
+    
+    <input type="text" id="receiver" placeholder="Enter receiver username">
+    <button id="send-btn">Send Snap</button>
+
+    <!-- View Snaps -->
+    <button id="view-snaps-btn">View Snaps</button>
+    <div id="snaps-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 # 📸 Flashy – Snapchat-Like Web App
 A fast and fun way to capture, edit, and share disappearing snaps with friends. Built using HTML, CSS, JavaScript, Node.js, Express, MongoDB, and Cloudinary.
 
-## 🚀 Features
+## 🚀 Features   
 ✅ Real-time Camera – Capture photos directly from the browser  
 ✅ 100+ Filters – Apply and scroll through filters before saving
 ✅ Send & Receive Snaps – Like Snapchat, but custom for user

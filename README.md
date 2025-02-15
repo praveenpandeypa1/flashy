@@ -4,7 +4,7 @@ A fast and fun way to capture, edit, and share disappearing snaps with friends. 
 ## 🚀 Features   
 ✅ Real-time Camera – Capture photos directly from the browser    
 ✅ 100+ Filters – Apply and scroll through filters before saving  
-✅ Send & Receive Snaps – Like Snapchat, but custom for user
+✅ Send & Receive Snaps – Like Snapchat, but custom for user  
 ✅ Self-Destructing Snaps – Snaps disappear after viewing      
 ✅ Cloud Storage – Securely stores snaps using Cloudinary   
 
